@@ -1,0 +1,34 @@
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body {
+  @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+A&display=swap");
+  font-family: "Noto Sans Linear A", sans-serif;
+  font-size: 1em;
+  width: 800px;
+  background-color: rgb(255, 240, 225);
+  font-weight: 100;
+  color: rgb(50, 50, 50);
+}
+html body a {
+  text-decoration: none;
+}
+html body main {
+  display: flex;
+}
+html body main section {
+  width: 50%;
+}
+html body main ul {
+  list-style: none;
+  padding: 0;
+}
+html body main #skills {
+  display: flex;
+  flex-direction: row;
+}
+html body main #skills ul {
+  width: 50%;
+}/*# sourceMappingURL=index.css.map */
